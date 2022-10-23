@@ -404,12 +404,11 @@ color: var(--primary-text-color-theme-light);
     gap: 30px;
 }
 
-/* .site {
+.site {
     width: 370px;
     height: 404px;
-    left: 215px;
-    top: 262px;
-} */
+    border: 1px solid #EEEEEE;
+}
 
 .site-name {
     font-weight: 700;
@@ -418,6 +417,7 @@ color: var(--primary-text-color-theme-light);
     letter-spacing: 0.06em;
 
     color: var(--primary-text-color-theme-light);
+    padding: 20px 24px 4px;
 }
 
 .site-type {
@@ -425,4 +425,5 @@ color: var(--primary-text-color-theme-light);
     line-height: 1.88;
 
     color: var(--secondary-text-color-theme-light);
+    padding: 0px 24px 4px;
 }
