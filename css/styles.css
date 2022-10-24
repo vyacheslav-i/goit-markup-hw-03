@@ -80,6 +80,10 @@ img {
     align-items: center;
 }
 
+.header-section {
+    border-bottom: 1px solid #ECECEC;;
+}
+
 /* Logo */
 
 .logo {
@@ -99,7 +103,7 @@ img {
 
 .navigation .logo {
     padding-top: 24px;
-    table-layout: 25px;
+    padding-bottom: 24px;;
     margin-right: 93px;
 }
 
