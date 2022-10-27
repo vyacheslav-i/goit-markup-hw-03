@@ -170,7 +170,7 @@ img {
 }
 
 .contact-item .contact-email {
-    padding-right: 50px;
+    margin-right: 50px;
 }
 
 .contact-email,
@@ -355,7 +355,7 @@ color: var(--primary-text-color-theme-light);
 }
 
 .address {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .adress-list {
@@ -413,16 +413,11 @@ color: var(--primary-text-color-theme-light);
     gap: 30px;
 }
 
-.site {
-    width: 370px;
-    height: 404px;
-    /* border: 1px solid #EEEEEE; */
-}
-
 .site-container {
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
+    padding: 20px 24px;
 }
 
 .site-name {
@@ -432,7 +427,7 @@ color: var(--primary-text-color-theme-light);
     letter-spacing: 0.06em;
 
     color: var(--primary-text-color-theme-light);
-    padding: 20px 24px 4px;
+    margin-bottom: 4px;
 }
 
 .site-type {
@@ -440,5 +435,4 @@ color: var(--primary-text-color-theme-light);
     line-height: 1.88;
 
     color: var(--secondary-text-color-theme-light);
-    padding: 0px 24px 4px;
 }
