@@ -151,7 +151,7 @@ img {
 
 .contact-list {
     display: flex;
-    margin-left: 293px;
+    margin-left: auto;
 }
 
 .contact-item {
@@ -169,7 +169,7 @@ img {
     padding-bottom: 32px;
 }
 
-.contact-item .contact-email {
+.contact-item:not(:last-child) {
     margin-right: 50px;
 }
 
